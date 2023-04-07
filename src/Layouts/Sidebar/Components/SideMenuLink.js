@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 function SideMenuLink({name, isActive, icon}) {
     const Container = styled.div`
-        background-color: ${isActive ? '#DFDFDF' : '#FFF'};
+        background-color: ${isActive ?  'rgba(100, 116, 139, 0.12);' : '#F8FAFC'};
         padding-top: 12px;
         padding-bottom: 12px;
 
